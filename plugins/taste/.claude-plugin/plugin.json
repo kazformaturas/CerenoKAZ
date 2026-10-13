@@ -1,0 +1,10 @@
+{
+  "name": "taste",
+  "description": "11 skills Taste para frontends que não parecem template. Cópia sem alterações de Leonxlnx/taste-skill no commit d237dd39 (sem full-output-enforcement e sem a v1 legada).",
+  "author": {
+    "name": "Leonxlnx"
+  },
+  "homepage": "https://github.com/Leonxlnx/taste-skill",
+  "repository": "https://github.com/Leonxlnx/taste-skill",
+  "license": "MIT"
+}

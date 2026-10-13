@@ -1,0 +1,9 @@
+{
+  "name": "playwright",
+  "description": "MCP do Playwright (Microsoft) para automação de navegador. Usa o Chrome instalado na máquina, com perfil separado do Chrome pessoal.",
+  "author": {
+    "name": "Microsoft"
+  },
+  "homepage": "https://github.com/microsoft/playwright-mcp",
+  "license": "Apache-2.0"
+}

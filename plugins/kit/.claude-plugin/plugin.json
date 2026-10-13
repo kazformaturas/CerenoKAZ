@@ -1,0 +1,16 @@
+{
+  "name": "kit",
+  "description": "Instala tudo do CerenoKAZ de uma vez: emil, taste, kaz, impeccable, playwright, chrome-devtools-mcp e figma.",
+  "author": {
+    "name": "KAZ Formaturas"
+  },
+  "dependencies": [
+    "emil",
+    "taste",
+    "kaz",
+    "impeccable",
+    "playwright",
+    "chrome-devtools-mcp",
+    "figma"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cerenokaz",
+  "description": "Pacote da KAZ para Claude Code: design de interface, animação, automação de navegador e Figma.",
+  "owner": {
+    "name": "KAZ Formaturas"
+  },
+  "plugins": [
+    {
+      "name": "kit",
+      "source": "./plugins/kit",
+      "description": "Instala tudo do CerenoKAZ de uma vez (os 7 plugins abaixo).",
+      "category": "bundle"
+    },
+    {
+      "name": "emil",
+      "source": "./plugins/emil",
+      "description": "15 skills de Emil Kowalski: polimento de interface, animação na web e no Expo, performance de animação, stress-test de UI.",
+      "category": "design"
+    },
+    {
+      "name": "taste",
+      "source": "./plugins/taste",
+      "description": "11 skills Taste: frontends que não parecem template, estilos (minimalista, brutalista, high-end), redesign e geração de imagem de referência.",
+      "category": "design"
+    },
+    {
+      "name": "kaz",
+      "source": "./plugins/kaz",
+      "description": "Skills da KAZ: web-motion, task-observer e claude-extension-install.",
+      "category": "productivity"
+    },
+    {
+      "name": "playwright",
+      "source": "./plugins/playwright",
+      "description": "MCP do Playwright (Microsoft): o Claude abre páginas, clica, preenche formulários e tira screenshots num Chrome com perfil próprio.",
+      "category": "testing"
+    },
+    {
+      "name": "impeccable",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pbakaus/impeccable.git",
+        "path": "plugin",
+        "sha": "245ad82def45831dc56a21b683c7a1ff530b06cc"
+      },
+      "description": "Impeccable 4.5.2 (Paul Bakaus): /impeccable com 24 comandos de design e um detector que revisa cada edição de HTML/CSS.",
+      "category": "design",
+      "homepage": "https://impeccable.style"
+    },
+    {
+      "name": "chrome-devtools-mcp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
+        "sha": "1cec9cd1a3bbf1895c98fa4b4e0e2da5a36e4075"
+      },
+      "description": "Chrome DevTools MCP 1.9.0 (Google): traces de performance, rede, console e acessibilidade num Chrome controlado pelo Claude.",
+      "category": "development",
+      "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "name": "figma",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/figma/mcp-server-guide.git",
+        "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1"
+      },
+      "description": "Figma MCP oficial: ler arquivos, componentes e tokens do Figma e transformar design em código. Pede login no Figma no primeiro uso.",
+      "category": "design",
+      "homepage": "https://github.com/figma/mcp-server-guide"
+    }
+  ]
+}

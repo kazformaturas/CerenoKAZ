@@ -1,0 +1,11 @@
+{
+  "name": "emil",
+  "description": "15 skills de Emil Kowalski sobre polimento de interface e animação. Cópia sem alterações de emilkowalski/skills no commit 2d228630.",
+  "author": {
+    "name": "Emil Kowalski",
+    "url": "https://emilkowal.ski"
+  },
+  "homepage": "https://github.com/emilkowalski/skills",
+  "repository": "https://github.com/emilkowalski/skills",
+  "license": "MIT"
+}

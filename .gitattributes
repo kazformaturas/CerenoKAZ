@@ -1,0 +1,7 @@
+# Mantém os arquivos byte a byte iguais em qualquer máquina,
+# mesmo com core.autocrlf=true (padrão do Git para Windows).
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.png binary
+*.webp binary
+*.svg binary

@@ -31,13 +31,13 @@ Cada máquina precisa de:
 **Windows**: abra o PowerShell e rode
 
 ```powershell
-irm https://raw.githubusercontent.com/OWNER/CerenoKAZ/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/kazformaturas/CerenoKAZ/main/install.ps1 | iex
 ```
 
 **macOS**: abra o Terminal e rode
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/OWNER/CerenoKAZ/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/kazformaturas/CerenoKAZ/main/install.sh | bash
 ```
 
 Depois, feche e abra o Claude (app ou terminal). Para conferir, digite `/plugin` e veja os plugins de `cerenokaz`.
@@ -60,7 +60,7 @@ Ele não mexe em permissões nem no `CLAUDE.md`.
 Se o script não rodar na máquina:
 
 ```bash
-claude plugin marketplace add https://github.com/OWNER/CerenoKAZ.git
+claude plugin marketplace add https://github.com/kazformaturas/CerenoKAZ.git
 ```
 
 ```bash

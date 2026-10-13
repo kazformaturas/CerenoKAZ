@@ -1,7 +1,7 @@
 # CerenoKAZ - instalador para Windows (PowerShell 5.1 ou mais novo)
 #
 # Uso, numa janela do PowerShell:
-#   irm https://raw.githubusercontent.com/OWNER/CerenoKAZ/main/install.ps1 | iex
+#   irm https://raw.githubusercontent.com/kazformaturas/CerenoKAZ/main/install.ps1 | iex
 #
 # O que ele faz:
 #   1. registra o marketplace "cerenokaz" no Claude Code
@@ -16,7 +16,7 @@
 #   $env:CERENOKAZ_KEEP_TELEMETRY = '1'  nao desligar a telemetria
 
 $ErrorActionPreference = 'Stop'
-$Source = if ($env:CERENOKAZ_SOURCE) { $env:CERENOKAZ_SOURCE } else { 'https://github.com/OWNER/CerenoKAZ.git' }
+$Source = if ($env:CERENOKAZ_SOURCE) { $env:CERENOKAZ_SOURCE } else { 'https://github.com/kazformaturas/CerenoKAZ.git' }
 $Marketplace = 'cerenokaz'
 $ConfigDir = if ($env:CLAUDE_CONFIG_DIR) { $env:CLAUDE_CONFIG_DIR } else { Join-Path $HOME '.claude' }
 # Clona via HTTPS mesmo sem chave SSH do GitHub na maquina.

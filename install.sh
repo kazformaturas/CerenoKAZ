@@ -2,7 +2,7 @@
 # CerenoKAZ - instalador para macOS e Linux
 #
 # Uso, no Terminal:
-#   curl -fsSL https://raw.githubusercontent.com/OWNER/CerenoKAZ/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/kazformaturas/CerenoKAZ/main/install.sh | bash
 #
 # Faz o mesmo que o install.ps1: registra o marketplace, instala o kit,
 # ajusta o ~/.claude/settings.json (limite de skills, atualizacao automatica,
@@ -13,7 +13,7 @@
 #   CERENOKAZ_KEEP_TELEMETRY=1  nao desligar a telemetria do Impeccable e do Chrome DevTools MCP
 
 set -euo pipefail
-SOURCE="${CERENOKAZ_SOURCE:-https://github.com/OWNER/CerenoKAZ.git}"
+SOURCE="${CERENOKAZ_SOURCE:-https://github.com/kazformaturas/CerenoKAZ.git}"
 MARKETPLACE="cerenokaz"
 CONFIG_DIR="${CLAUDE_CONFIG_DIR:-$HOME/.claude}"
 export CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1
